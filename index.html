@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>wreqrwqreqwrewqrqwrwqrwqrqewr</title>
+	</head>
+	<body>
+		<pre>
+command Source source ~/.config/nvim/init.vim
+
+function SetTab(size, do_tab)
+  let &tabstop=a:size
+  let &shiftwidth=a:size
+  let &expandtab=a:do_tab
+endfunction
+
+colorscheme ron
+syntax on
+
+set formatoptions-=o
+set formatoptions-=r
+
+set list
+set autoindent
+
+set noautoindent
+set nosmartindent
+set nocindent
+
+filetype indent off
+filetype plugin indent off
+
+call SetTab(4, 0)
+		</pre>
+	</body>
+</html>
